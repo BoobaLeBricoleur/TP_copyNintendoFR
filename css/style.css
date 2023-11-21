@@ -58,7 +58,7 @@ html, body {
     bottom: 0; /* Aligner en bas de la fenêtre */
     left: 0;
     width: 100px;
-    background-color: #720000;
+    background-color: #333;
     color: white;
 }
 
@@ -69,14 +69,16 @@ html, body {
 }
 
 .parent > div {
-    padding: 10px 0; /* Ajouter de l'espacement autour des éléments */
-    cursor: pointer; /* Ajouter un curseur au survol */
-    border-bottom: 1px solid #5c0000; /* Ajouter une bordure basse */
+    padding: 25px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #fff0dd;
+    border-top: 1px solid #fff0dd;
     height: 100%;
 }
 
 .parent > div:hover {
-    background-color: #5c0000; /* Changer la couleur de fond au survol */
+    background-color: #fff0dd ;
+    color: black;
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6, .div7 {
@@ -147,7 +149,6 @@ html, body {
     padding: 5px;
     border-radius: 5px;
     transition: box-shadow, transform 300ms linear;
-    /*border:solid red 5px;*/
 }
 
 
@@ -218,4 +219,15 @@ html, body {
     display: flex;
     align-items: center;
     column-gap: 5px;
+}
+
+.news-data{
+    font-size: .8rem;
+    font-weight: 300;
+    color: #999;
+}
+
+.news1 img, .news2 img, .news3 img, .news4 img{
+    min-height: 125px;
+    min-width: 125px;
 }
